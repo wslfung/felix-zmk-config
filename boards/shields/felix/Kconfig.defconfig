@@ -1,17 +1,17 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_HELIX_LEFT
+if SHIELD_FELIX_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Helix"
+    default "Felix"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_HELIX_LEFT || SHIELD_HELIX_RIGHT
+if SHIELD_FELIX_LEFT || SHIELD_FELIX_RIGHT
 
 config ZMK_SPLIT
     default y

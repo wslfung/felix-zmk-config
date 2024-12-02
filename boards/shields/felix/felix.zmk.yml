@@ -1,6 +1,6 @@
 file_format: "1"
-id: helix
-name: Helix
+id: felix
+name: Felix
 type: shield
 url: https://github.com/MakotoKurauchi/helix
 requires: [pro_micro]
