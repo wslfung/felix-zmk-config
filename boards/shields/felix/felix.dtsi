@@ -8,13 +8,13 @@
 #include "felix_physical.dtsi"
 
 &felix_layout {
+  kscan = <&kscan0>;
   transform = <&default_transform>;
 };
 
 / {
     chosen {
         zephyr,display = &oled;
-        zmk,kscan = &kscan0;
     };
 
     default_transform: keymap_transform_0 {
@@ -50,9 +50,6 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)   RC(4,7) RC(4,8) RC(4,9
 
     };
 
-    zephyr_udc0: &usbd {
-      status = "okay";
-    };
 };
 
  &pro_micro_i2c {
