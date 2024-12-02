@@ -10,5 +10,5 @@ features:
   - display
   - studio
 siblings:
-  - helix_left
-  - helix_right
+  - felix_left
+  - felix_right
