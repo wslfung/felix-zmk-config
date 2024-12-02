@@ -43,7 +43,7 @@ As such, those are in use within the default layer at this time.*/
 
     chosen {
       zephyr,display = &oled;
-    }
+    };
 
     behaviors {
         tpmt: tpmt {
