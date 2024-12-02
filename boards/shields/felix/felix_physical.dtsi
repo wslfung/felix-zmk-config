@@ -2,7 +2,7 @@
 
 / {
   felix_layout: felix_layout {
-    compatible = "zmk,physical_layouts";
+    compatible = "zmk,physical_layout";
     display-name = "Felix";
 
     keys  //                     w   h    x    y     rot    rx    ry
