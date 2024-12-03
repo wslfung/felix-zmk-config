@@ -71,6 +71,8 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans     &trans  &trans  &trans           &trans  &trans    &trans  &kp MINUS   &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
 &trans  &trans     &trans  &trans  &trans           &trans  &trans    &trans  &trans      &trans          &trans            &trans             &trans         &trans
             >;
+
+            label = "NAV";
         };
 
         raise_layer {
@@ -88,6 +90,8 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N0         &kp KP_DOT    &kp C_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP
             >;
+
+            label = "NUM";
         };
 
         adjust_layer {
@@ -105,6 +109,22 @@ As such, those are in use within the default layer at this time.*/
 &bootloader  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans          &trans          &trans  &trans          &bootloader
 &trans       &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans          &trans          &trans  &trans          &trans
             >;
+        };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+
+        extra4 {
+            status = "reserved";
         };
     };
 };
