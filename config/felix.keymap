@@ -109,6 +109,8 @@ As such, those are in use within the default layer at this time.*/
 &bootloader  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans          &trans          &trans  &trans          &bootloader
 &trans       &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans          &trans          &trans  &trans          &trans
             >;
+
+            label = "SYS";
         };
 
         extra1 {
