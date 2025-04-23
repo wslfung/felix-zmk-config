@@ -1,0 +1,12 @@
+keyboard:
+  info_json: config/info.json
+  layout: LAYOUT
+
+parse:
+  show_unmapped: true
+
+draw:
+  scale: 1.0
+  legends: true
+  show_unmapped: true
+  theme: default
